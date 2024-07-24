@@ -1,0 +1,21 @@
+{
+  "name": "https-server",
+  "version": "1.0.0",
+  "description": "A simple HTTPS server to serve an HTML file and handle API requests",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.cjs",
+    "generate-cert": "node generate-cert.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "pem": "^1.14.8"
+  }
+}

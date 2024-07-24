@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Protected Audience Ad</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>Here is an advertisement:</p>
+    <fencedframe id="protected-audience-ad" mode="opaque-ads"></fencedframe>
+
+    <script src="publisher.js"></script>
+    <script>
+        const sspUrl = 'https://localhost:3001'; // Replace with your SSP URL
+        const dspUrl = 'https://localhost:3000'; // Replace with your DSP URL
+        runAuction(sspUrl, dspUrl);
+    </script>
+</body>
+</html>
